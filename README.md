@@ -9,17 +9,17 @@ GUI which displays the available ingredients grouped by type for creating a sand
 Bread – radio button group of bread from which to select
 Meats – checkboxes – allowing a specific number of choices of meat or none
 Cheeses – radio button group of cheese selections
-Vegetables – checkboxes allowing selection of any combination of all the vegetables or none
+Toppings – checkboxes allowing selection of any combination of all the vegetables, Salt, Pepper, Oregano, or none
 Sauces/dressings – checkboxes allowing selection of any combination of sauces/dressings or none
-Salt, Pepper, Oregano – checkboxes allowing selection of any combination of dressings or none
-Price for each item
+Price for each item or group of items
+Future components:
 Display a selection menu of pre-defined sandwiches, such as BLT, Buffalo Chicken, etc., with associated ingredients, and allows the customer to customize.
  
 Actions:
 Initial functions:
-Ability to view a running total cost as the sandwich is created
-Ability to order as a guest for a one-time order and ability to save that order as a favorite as a new user if desired
-Summarize and display the customer’s order and total cost of each sandwich as it would be seen on the sandwich-making station screen
+Ability to order as a guest for a one-time order 
+Ability to select ingredients for a sandwichfrom the single-select and multi-select ingredient lists
+Summarize and display the customer’s order and total cost of the sandwich as it would be seen on the sandwich-making station screen
 
 Functions to add as time permits:
 Ability to create the new account to save favorites
@@ -28,11 +28,11 @@ Ability to log in as the customer and select from saved favorites
 Ability to order and save more than one sandwich as a favorite 
  
 
-Persistent Storage – Database such as MySQL or XML files which store:
-The ingredients that will be displayed on the GUI so they can be dynamically changed in the database when new ingredients are added by Subway corporate marketing
-Prices for ingredients
+Persistent Storage – XML file(s) which store:
+1. Ingredients that will be displayed on the GUI so they can be dynamically changed in the database when new ingredients are added by Subway corporate marketing
+2. Prices associated with ingredients
 
 Future storage:
-The pre-defined sandwich selections and their association to the ingredients for each
+The pre-defined sandwich selections and their ingredients
 Customer data
 Sandwich favorites associated with the customer
