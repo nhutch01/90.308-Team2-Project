@@ -1,81 +1,91 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
 <ingredients>
-<ingredient group type="single-select">
-<ingredient group="Menu-items">
-    <ingredient choice>Footlong</ingredient choice>
-    <ingredient choice>6-inch</ingredient choice>
-    <ingredient choice>Mini</ingredient choice>
-    <ingredient choice>Salad</ingredient choice>
+  <ingredient group>
+    	<type>single-select</type>
+	<name>Menu-items</name>
+    	<choice>Footlong</choice>
+    	<choice>6-inch</choice>
+    	<choice>Mini</choice>
+    	<choice>Salad</choice>
   </ingredient group>
-<ingredient group="Sandwich-type">
-    <ingredient choice>Toasted</ingredient choice>
-    <ingredient choice>Non-Toasted</ingredient choice>
+  <ingredient group>
+    	<type>single-select</type>
+	<name>Sandwich-type</name>
+    	<choice>Toasted</choice>
+    	<choice>Non-Toasted</choice>
   </ingredient group>
-<ingredient group="Bread-type">
-    <ingredient choice>Italian White</ingredient choice>
-    <ingredient choice>Wheat</ingredient choice>
-    <ingredient choice>Honey Oat</ingredient choice>
-    <ingredient choice>Italian Herbs and Cheese</ingredient choice>
-    <ingredient choice>Monterey Cheddar</ingredient choice>
-    <ingredient choice>Flatbread</ingredient choice>
-    <ingredient choice>Wheat Wrap</ingredient choice>
+  <ingredient group>
+    	<type>single-select</type>
+	<name>Bread</name>
+    	<choice>Italian White</choice>
+    	<choice>Wheat</choice>
+    	<choice>Honey Oat</choice>
+    	<choice>Italian Herbs and Cheese</choice>
+     <choice>Monterey Cheddar</choice>
+     <choice>Flatbread</choice>
+     <choice>Wheat Wrap</choice>
   </ingredient group>
-  <ingredient group="Cheese">
-    <ingredient choice>American</ingredient choice>
-    <ingredient choice>Provolone</ingredient choice>
-    <ingredient choice>Pepper jack</ingredient choice>
-    <ingredient choice>Cheddar</ingredient choice>
-    <ingredient choice>Mozzarella</ingredient choice>
-    <ingredient choice>Monterey Jack</ingredient choice>
+  <ingredient group>
+    	<type>single-select</type>
+	<name>Cheese</name>
+    	<choice>American</choice>
+    	<choice>Provolone</choice>
+    	<choice>Pepper jack</choice>
+    	<choice>Cheddar</choice>
+    	<choice>Mozzarella</choice>
+    	<choice>Monterey Jack</choice>
   </ingredient group>
-</ingredient group type>
-<ingredient group type="multi-select">
-  <ingredient group="Meats">
-    <ingredient choice>Turkey</ingredient choice>
-    <ingredient choice>Black Forest Ham</ingredient choice>
-    <ingredient choice>Sliced Chicken</ingredient choice>
-    <ingredient choice>Grilled Chicken</ingredient choice>
-    <ingredient choice>Buffalo Chicken</ingredient choice>
-    <ingredient choice>Teriyaki Chicken</ingredient choice>
-   <ingredient choice>Steak</ingredient choice>
-  <ingredient choice>Roast Beef</ingredient choice>
-    <ingredient choice>Tuna</ingredient choice>
-    <ingredient choice>Bologna</ingredient choice>
-    <ingredient choice>Salami</ingredient choice>
-    <ingredient choice>Genoa Salami</ingredient choice>
-   <ingredient choice>Meatball Marinara</ingredient choice>
-   <ingredient choice>Pepperoni</ingredient choice>
-   <ingredient choice>Bacon</ingredient choice>
-  <ingredient choice>Veggie Pattie</ingredient choice>
+  <ingredient group>
+    	<type>multi-select</type>
+	<name>Meats</name>
+    	<choice>Turkey</choice>
+    	<choice>Black Forest Ham</choice>
+    	<choice>Sliced Chicken</choice>
+    	<choice>Grilled Chicken</choice>
+    	<choice>Buffalo Chicken</choice>
+    	<choice>Teriyaki Chicken</choice>
+   	<choice>Steak</choice>
+  	<choice>Roast Beef</choice>
+    	<choice>Tuna</choice>
+    	<choice>Bologna</choice>
+    	<choice>Salami</choice>
+    	<choice>Genoa Salami</choice>
+   	<choice>Meatball Marinara</choice>
+   	<choice>Pepperoni</choice>
+   	<choice>Bacon</choice>
+  	<choice>Veggie Pattie</choice>
   </ingredient group>
-<ingredient group="Toppings">
-    <ingredient choice>Lettuce</ingredient choice>
-    <ingredient choice>Tomatoes</ingredient choice>
-    <ingredient choice>Cucumbers</ingredient choice>
-    <ingredient choice>Green Peppers</ingredient choice>
-    <ingredient choice>Spinach</ingredient choice>
-    <ingredient choice>Onions</ingredient choice>
-   <ingredient choice>Pickles</ingredient choice>
-  <ingredient choice>Olives</ingredient choice>
-    <ingredient choice>Banana Peppers</ingredient choice>
-    <ingredient choice>Grated Parmesan</ingredient choice>
-    <ingredient choice>Jalapenos</ingredient choice>
-    <ingredient choice>Salt</ingredient choice>
-    <ingredient choice>Pepper</ingredient choice>
-    <ingredient choice>Oregano</ingredient choice>
+  <ingredient group>
+    	<type>multi-select</type>
+	<name>Toppings</name>
+    	<choice>Lettuce</choice>
+    	<choice>Tomatoes</choice>
+    	<choice>Cucumbers</choice>
+    	<choice>Green Peppers</choice>
+    	<choice>Spinach</choice>
+    	<choice>Onions</choice>
+   	<choice>Pickles</choice>
+  	<choice>Olives</choice>
+    	<choice>Banana Peppers</choice>
+    	<choice>Grated Parmesan</choice>
+    	<choice>Jalapenos</choice>
+    	<choice>Salt</choice>
+    	<choice>Pepper</choice>
+    	<choice>Oregano</choice>
+   </ingredient group>
+  <ingredient group>
+    	<type>multi-select</type>
+	<name>Sauces</name>
+    <choice>Yellow Mustard</choice>
+    <choice>Brown Mustard</choice>
+    <choice>Honey Mustard</choice>
+    <choice>Sweet Onion</choice>
+    <choice>Red Wine Vinegar</choice>
+    <choice>Light Mayo</choice>
+   <choice>Chipolte Southwest</choice>
+  <choice>Ranch</choice>
+    <choice>Mayo</choice>
+    <choice>Oil</choice>
   </ingredient group>
-<ingredient group="Sauces">
-    <ingredient choice>Yellow Mustard</ingredient choice>
-    <ingredient choice>Brown Mustard</ingredient choice>
-    <ingredient choice>Honey Mustard</ingredient choice>
-    <ingredient choice>Sweet Onion</ingredient choice>
-    <ingredient choice>Red Wine Vinegar</ingredient choice>
-    <ingredient choice>Light Mayo</ingredient choice>
-   <ingredient choice>Chipolte Southwest</ingredient choice>
-  <ingredient choice>Ranch</ingredient choice>
-    <ingredient choice>Mayo</ingredient choice>
-    <ingredient choice>Oil</ingredient choice>
-  </ingredient group>
-</ingredient group type>
 </ingredients>

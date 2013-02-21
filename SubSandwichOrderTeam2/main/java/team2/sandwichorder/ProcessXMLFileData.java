@@ -3,6 +3,7 @@ package team2.sandwichorder;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
+import java.io.File;
 import java.util.ArrayList;
 
 /**
@@ -15,7 +16,7 @@ import java.util.ArrayList;
  */
 public interface ProcessXMLFileData {
     /* returns the Document object from the XML File */
-    public Document parseXmlFile(String fileName);
+    public Document parseXmlFile(File fileName);
     /* parse the Document object for the specified XML tag and return list of elements*/
     public ArrayList parseDocumentForElements(Document dom, String tagName);
     /* for a document element, get the text value based on the tag name*/

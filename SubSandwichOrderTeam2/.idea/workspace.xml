@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88a42345-6bf3-4960-9d1f-3a48dae54e15" name="Default" comment="" />
+    <list default="true" id="88a42345-6bf3-4960-9d1f-3a48dae54e15" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\report\html\team2\sandwichorder\0_IngredientGroupTest.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/IngredientGroupDAO.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/IngredientGroupDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/ProcessXMLFileData.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/ProcessXMLFileData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroupDAO.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroupDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ingredients.xml" afterPath="$PROJECT_DIR$/Ingredients.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/ProcessXMLFileData.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/ProcessXMLFileData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/TEST-team2.sandwichorder.IngredientGroupTest.xml" afterPath="$PROJECT_DIR$/build/report/TEST-team2.sandwichorder.IngredientGroupTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/TESTS-TestSuites.xml" afterPath="$PROJECT_DIR$/build/report/TESTS-TestSuites.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/html/all-tests.html" afterPath="$PROJECT_DIR$/build/report/html/all-tests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/html/allclasses-frame.html" afterPath="$PROJECT_DIR$/build/report/html/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/html/alltests-fails.html" afterPath="$PROJECT_DIR$/build/report/html/alltests-fails.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/html/overview-summary.html" afterPath="$PROJECT_DIR$/build/report/html/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/html/team2/sandwichorder/package-frame.html" afterPath="$PROJECT_DIR$/build/report/html/team2/sandwichorder/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/html/team2/sandwichorder/package-summary.html" afterPath="$PROJECT_DIR$/build/report/html/team2/sandwichorder/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="SubSandwichOrderTeam2.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="$USER_HOME$/IdeaProjects/TestOutCode/src/testcode/nicki/ProcessXML.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361115824336" ignored="false" />
@@ -11,13 +27,15 @@
     <file path="/Employee.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361114230682" ignored="false" />
     <file path="/ProcessXML.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361115824642" ignored="false" />
     <file path="/IngredientGroup.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361238442320" ignored="false" />
-    <file path="/fragment.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361236102776" ignored="false" />
+    <file path="/fragment.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361414036553" ignored="false" />
     <file path="$PROJECT_DIR$/../90.308/src/test/java/com/origamisoftware/teach/effective/junit/SubscriptionPeriodTest.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361237231133" ignored="false" />
     <file path="/IngredientGroupTest.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361238683192" ignored="false" />
-    <file path="/ProcessXMLFileData.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361238315370" ignored="false" />
-    <file path="/IngredientGroupDAO.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361323991230" ignored="false" />
-    <file path="/Dummy.txt" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361325424133" ignored="false" />
+    <file path="/ProcessXMLFileData.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361414676044" ignored="false" />
+    <file path="/IngredientGroupDAO.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361420703238" ignored="false" />
+    <file path="/Dummy.txt" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361414036553" ignored="false" />
     <file path="$PROJECT_DIR$/../90.308-Team2-Project/SubSandwichOrderTeam2/.idea/workspace.xml" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361322710447" ignored="false" />
+    <file path="/IngredientGroupDAOTest.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361421124147" ignored="false" />
+    <file path="$PROJECT_DIR$/build/report/TEST-team2.sandwichorder.IngredientGroupDAOTest.xml" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361418156921" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +55,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -72,6 +89,23 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroupDAO.java" line="78" class="team2.sandwichorder.IngredientGroupDAO" package="team2.sandwichorder">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -81,10 +115,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProcessXMLFileData.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ProcessXMLFileData.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/ProcessXMLFileData.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="30" selection-start="151" selection-end="151" vertical-scroll-proportion="0.17489712">
+            <state line="18" column="43" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,8 +127,23 @@
       <file leaf-file-name="IngredientGroupDAO.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroupDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="68" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="66" column="76" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1759#1767#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IngredientGroupDAOTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="53" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.64663464">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#914#922#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -111,8 +160,10 @@
       <file leaf-file-name="IngredientGroupTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="51" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="8" column="48" selection-start="108" selection-end="159" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,10 +189,12 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroupTest.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroupDAO.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/ProcessXMLFileData.java" />
         <option value="$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupTest.java" />
         <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroup.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroupDAOTest.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/ProcessXMLFileData.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroupDAO.java" />
+        <option value="$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupDAOTest.java" />
       </list>
     </option>
   </component>
@@ -177,8 +230,37 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Tests" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubSandwichOrderTeam2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubSandwichOrderTeam2Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubSandwichOrderTeam2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubSandwichOrderTeam2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -272,37 +354,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSandwichOrderTeam2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSandwichOrderTeam2Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSandwichOrderTeam2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SubSandwichOrderTeam2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+      <pane id="Scope">
+        <subPane subId="Tests" />
       </pane>
     </panes>
   </component>
@@ -312,6 +365,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="vcs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -321,15 +375,15 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="team2.sandwichorder" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
   </component>
   <component name="RunManager">
@@ -345,19 +399,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -385,6 +426,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -495,24 +549,24 @@
     <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28789985" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28710124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967742" sideWeight="0.71210015" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967742" sideWeight="0.6439499" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.4980695" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35605007" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.497426" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26903227" sideWeight="0.71210015" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26903227" sideWeight="0.6439499" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.49791956" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -587,13 +641,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="51" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/ProcessXMLFileData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="80" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0">
@@ -604,7 +651,10 @@
     <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroupDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="65" column="72" selection-start="2207" selection-end="2275" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1759#1767#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -618,7 +668,9 @@
     <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="39" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -632,7 +684,10 @@
     <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroupDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="32" selection-start="1678" selection-end="1678" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1759#1767#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -646,7 +701,9 @@
     <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="39" selection-start="1407" selection-end="1407" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,20 +726,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroupDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="68" selection-start="2142" selection-end="2142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="51" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="31" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0">
@@ -692,8 +735,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/ProcessXMLFileData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="151" selection-end="151" vertical-scroll-proportion="0.17489712">
+        <state line="18" column="43" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="48" selection-start="108" selection-end="159" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroupDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="76" selection-start="2207" selection-end="2207" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1759#1767#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="53" selection-start="1097" selection-end="1097" vertical-scroll-proportion="0.64663464">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#914#922#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Nicki-PC" name="team2.sandwichorder.IngredientGroupTest" tests="6" time="0.103" timestamp="2013-02-21T04:32:13">
+<testsuite errors="0" failures="1" hostname="Nicki-PC" name="team2.sandwichorder.IngredientGroupDAOTest" tests="1" time="0.128" timestamp="2013-02-21T04:32:12">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib" />
@@ -34,7 +34,6 @@
     <property name="java.vm.info" value="mixed mode, sharing" />
     <property name="ant.file" value="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build.xml" />
     <property name="os.version" value="6.1" />
-    <property name="test_failure" value="true" />
     <property name="path.separator" value=";" />
     <property name="ant.file.SubSandwichOrderTeam2-Project" value="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build.xml" />
     <property name="java.vm.version" value="23.6-b04" />
@@ -52,7 +51,7 @@
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner team2.sandwichorder.IngredientGroupTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\report\TEST-team2.sandwichorder.IngredientGroupTest.xml crashfile=C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\junitvmwatcher6000593838150980165.properties propsfile=C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\junit3840161829604828119.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner team2.sandwichorder.IngredientGroupDAOTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\report\TEST-team2.sandwichorder.IngredientGroupDAOTest.xml crashfile=C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\junitvmwatcher1198401980294486162.properties propsfile=C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\junit1552927301189745534.properties" />
     <property name="java.class.path" value="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\classes;C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\lib\junit-4.10.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.2\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.2\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.2\lib\ant\lib\ant-junit.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -76,12 +75,39 @@
     <property name="src.dir" value="main\java" />
     <property name="ant.project.invoked-targets" value="all" />
   </properties>
-  <testcase classname="team2.sandwichorder.IngredientGroupTest" name="testGetChoices" time="0.002" />
-  <testcase classname="team2.sandwichorder.IngredientGroupTest" name="testAddChoice" time="0.0" />
-  <testcase classname="team2.sandwichorder.IngredientGroupTest" name="testSetGroupType" time="0.0" />
-  <testcase classname="team2.sandwichorder.IngredientGroupTest" name="testGetGroupName" time="0.0" />
-  <testcase classname="team2.sandwichorder.IngredientGroupTest" name="testGetGroupType" time="0.0" />
-  <testcase classname="team2.sandwichorder.IngredientGroupTest" name="testSetGroupName" time="0.0" />
-  <system-out><![CDATA[]]></system-out>
+  <testcase classname="team2.sandwichorder.IngredientGroupDAOTest" name="testParseDocumentForElements" time="0.032">
+    <failure message="expected:&lt;[multi]-select&gt; but was:&lt;[single]-select&gt;" type="junit.framework.ComparisonFailure">junit.framework.ComparisonFailure: expected:&lt;[multi]-select&gt; but was:&lt;[single]-select&gt;
+	at team2.sandwichorder.IngredientGroupDAOTest.testParseDocumentForElements(IngredientGroupDAOTest.java:36)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Element Tag Name: group
+com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@173ee92
+NodeList: com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@173ee92
+Element single-select
+Element Tag Name: group
+com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@33b503
+NodeList: com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@33b503
+Element single-select
+Element Tag Name: group
+com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@b0f0ae
+NodeList: com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@b0f0ae
+Element single-select
+Element Tag Name: group
+com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@893918
+NodeList: com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@893918
+Element single-select
+Element Tag Name: group
+com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@1036651
+NodeList: com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@1036651
+Element multi-select
+Element Tag Name: group
+com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@327236
+NodeList: com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@327236
+Element multi-select
+Element Tag Name: group
+com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@1e84195
+NodeList: com.sun.org.apache.xerces.internal.dom.DeepNodeListImpl@1e84195
+Element multi-select
+]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
