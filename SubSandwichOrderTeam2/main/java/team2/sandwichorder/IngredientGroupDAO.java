@@ -2,7 +2,6 @@ package team2.sandwichorder;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
@@ -22,12 +21,14 @@ import java.util.ArrayList;
  */
 public class IngredientGroupDAO implements ProcessXMLFileData{
     IngredientGroup ingredientGroup = null;
+    String type = null;
+    String name = null;
 
     public IngredientGroupDAO(){
         ingredientGroup = new IngredientGroup();
     }
     /* returns the Document object from the XML File */
-    public Document parseXmlFile(File fileName){
+    public static Document parseXmlFile(File fileName){
         DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
         Document dom;
         try {
@@ -52,56 +53,64 @@ public class IngredientGroupDAO implements ProcessXMLFileData{
         return dom;
     }
     /* parse the Document object for the specified XML tag and return list of elements*/
-    public ArrayList parseDocumentForElements(Document dom, String tagName){
-        ArrayList<String> elementNames = new ArrayList<String>();
+    public ArrayList<IngredientGroup> parseDocumentForElements(Document dom, String tagName){
+        ArrayList<IngredientGroup> allIngredientGroups = new ArrayList<IngredientGroup>();
+        IngredientGroup buildGroup = new IngredientGroup();
         //get the root element
         dom.getDocumentElement().normalize();
-        NodeList nodes = dom.getElementsByTagName(tagName);
-        for (int i = 0; i < nodes.getLength(); i++)
+        NodeList groupNodes = dom.getElementsByTagName(tagName);
+        for (int i = 0; i < groupNodes.getLength(); i++)
         {
-            Node node = nodes.item(i);
-
-            if (node.getNodeType() == Node.ELEMENT_NODE)
-            {
-                Element element = (Element) node;
-                String elementValue = getTextValueFromElement(element, "type");
-                System.out.println("Element " + elementValue);
-                elementNames.add(elementValue);
+            buildGroup = new IngredientGroup();
+            //Node node = groupNodes.item(i);
+            Element groupElement = (Element)groupNodes.item(i); // <group> element
+            NodeList typeNodes = groupElement.getElementsByTagName("type");  // <type> node
+            Element typeElement = (Element)typeNodes.item(0);
+            String elementValue = typeElement.getTextContent();
+            buildGroup.setGroupType(elementValue);
+            NodeList nameNodes = groupElement.getElementsByTagName("name");  // <type> node
+            Element nameElement = (Element)nameNodes.item(0);
+            elementValue = nameElement.getTextContent();
+            buildGroup.setGroupName(elementValue);
+            NodeList choiceNodes = groupElement.getElementsByTagName("choice");
+            for (int choice = 0; choice < choiceNodes.getLength(); choice++) {
+                Element authorElement = (Element)choiceNodes.item(choice);
+                elementValue = authorElement.getTextContent();
+                buildGroup.addChoice(elementValue);
             }
+
+            allIngredientGroups.add(buildGroup);
         }
-        return elementNames;
+        return allIngredientGroups;
 }
-
-    /* for a document element, get the text value based on the tag name*/
-    public String getTextValueFromElement(Element element, String tagName){
-        String textVal = null;
-        System.out.println("Element Tag Name: " + element.getTagName());
-        NodeList nl = element.getElementsByTagName(tagName);
-        System.out.println(nl.toString());
-        //Element el = (Element) nl.item(0);
-        if(nl != null && nl.getLength() > 0) {
-            Element elmt = (Element)nl.item(0);
-            System.out.println("NodeList: " + nl.toString());
-            textVal = elmt.getFirstChild().getNodeValue();
-        }
-        else
-            textVal = "Not Found";
-        return textVal;
-    }
-
-    /* get the attribute of an Element based on the tag's attribute value name */
-    public String getAttributeValueFromElement(Element element, String tagName){
-        return null;
-    }
-
-    /* build the ingredient group object from the parsed XML data */
-    private IngredientGroup buildIngredientGroup (){
-        return null;
-    }
 
     // return the arraylist of ingredient groups of the type passed in through the parameter
     // single-select or multi-select
-    public ArrayList<IngredientGroup> returnIngredientGroup(String type)  {
-        return null;
+    public static ArrayList<IngredientGroup> returnAllIngredientGroups(String fileName, String tagName)  {
+        Document doc = null;
+        ArrayList<IngredientGroup> groupsFromXML = null;
+        File fXmlFile = new File(fileName);
+        doc = parseXmlFile(fXmlFile);
+        IngredientGroupDAO ingredientData = new IngredientGroupDAO();
+        groupsFromXML = ingredientData.parseDocumentForElements(doc, tagName);
+        return groupsFromXML;
+    }
+
+    public static void main(String args[])  {
+        Document doc;
+        String fileName = "C:\\Users\\Nicki\\Ingredients.xml";
+
+
+        String tagName = "group";
+
+        ArrayList<IngredientGroup> groupsFromXMLFile = returnAllIngredientGroups(fileName, tagName);
+
+        for (IngredientGroup g:groupsFromXMLFile)        {
+            System.out.println("type: " + g.getGroupType());
+            System.out.println("name: " + g.getGroupName());
+            for (String choice: g.getChoices())
+                System.out.println("choice: " + choice);
+        }
+
     }
 }
