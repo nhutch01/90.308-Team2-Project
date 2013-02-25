@@ -1,1 +1,7 @@
 Here is the file I'll use for comments
+
+
+Do not separate packages by interfaces and classes. 
+Do use standard package names (no underscores) characters.  
+
+Why two source level folders?
