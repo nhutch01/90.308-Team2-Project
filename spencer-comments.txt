@@ -1,1 +1,18 @@
 Here is the file I'll use for comments
+
+
+Do not separate packages by interfaces and classes. 
+Do use standard package names (no underscores) characters.  
+Do not inlcude .classes (or the out) folder in the VCS - the general rule is to exclude anything that compiler generates.
+
+Why two source level folders?
+
+Make sure you name classes follow the standard convention. 
+
+see:
+http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html
+
+packages are always lower case, no dashes, underscores
+Class names always start with a Capital letter and use camel case. 
+Method names always start with a lower case letter and use camel. 
+Variables names awlasys tart with a lower case and use camel case. 
