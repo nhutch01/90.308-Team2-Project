@@ -97,7 +97,6 @@ public class IngredientGroupDAO implements ProcessXMLFileData{
     }
 
     public static void main(String args[])  {
-        Document doc;
         String fileName = "C:\\Users\\Nicki\\Ingredients.xml";
 
 
