@@ -4,26 +4,55 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 
-public class MainFrame extends JFrame implements MainFrameInterface,
-		ActionListener {
+public class MainFrame extends JFrame
+        implements ActionListener {
 
+	private List<IngredientGroup> ingredientGroup;
 	private WelcomePane welcomePane;// pane in which customers will be welcomed
 	private AbstractPane menuItemsPane; // order pane for breads customers
+	private AbstractPane sandwichTypePane; // order Pane for Toasted or Not
+	private AbstractPane breadPane;// order pane to choose the bread
+	private AbstractPane cheesePane; // where cheeses will be selected
+	private AbstractPane meatPane; // here customers choose meats
+	private AbstractPane toppingsPane; // to choose toppings
+	private AbstractPane saucesPane; // the sauces choice display
+	private SummaryPane selectionSummaryPane; // pane were summary will be
+												// displayed
+	private List<String> selectedIngredients;// the list of all customer
+    private String fileName = ".\\Ingredients.xml";
 
 	public MainFrame(String title) {
 		super(title);
 
-		initializeAllPanes();// method declared in this class
+        // IngredientGroupDAO works
 
-		// method created in this file
+        String tagName = "group";
+        ingredientGroup = IngredientGroupDAO.returnAllIngredientGroups(fileName, tagName) ;
+
+		initializeAllPanes();// method declared within this class to initialize
+								// all frames
+
+		// method created/declared within this class
 		setUpWelcomePane();
 
+		/*
+		 * sets the borderLayout and also adds all panes to this MainFrame after
+		 * the initializeAllPanes() method has been called and initializes all
+		 * the panes
+		 */
 		this.setLayout(new BorderLayout());
 		this.add(welcomePane, BorderLayout.NORTH);
 		this.add(menuItemsPane, BorderLayout.NORTH);
+		this.add(sandwichTypePane, BorderLayout.NORTH);
+		this.add(breadPane, BorderLayout.NORTH);
+		this.add(cheesePane, BorderLayout.NORTH);
+		this.add(meatPane, BorderLayout.NORTH);
+		this.add(toppingsPane, BorderLayout.NORTH);
+		this.add(saucesPane, BorderLayout.NORTH);
+		this.add(selectionSummaryPane, BorderLayout.NORTH);
 		this.setResizable(false);
 
 	}// ends MainFrame constructor
@@ -40,20 +69,16 @@ public class MainFrame extends JFrame implements MainFrameInterface,
 	}// ends method setUpWelcomePane
 		// /////////////////////////////////////////////////////////////////////
 
-	private void setUpSanwhichTypePane() {
-
-		menuItemsPane.setSize(new Dimension(600, 400));
-		menuItemsPane.setMinimumSize(new Dimension(600, 400));
-		menuItemsPane.setMaximumSize(new Dimension(600, 400));
-		menuItemsPane.setPreferredSize(new Dimension(600, 400));
-		menuItemsPane.setBorder(BorderFactory.createEtchedBorder());
-
-	}// ends setUpSandwhichTypePane method
-		// /////////////////////////////////////////////////////////////////////
-
 	private void setAllPanesVisibleToFalse() {
 		welcomePane.setVisible(false);
 		menuItemsPane.setVisible(false);
+		sandwichTypePane.setVisible(false);
+		breadPane.setVisible(false);
+		cheesePane.setVisible(false);
+		meatPane.setVisible(false);
+		toppingsPane.setVisible(false);
+		saucesPane.setVisible(false);
+		selectionSummaryPane.setVisible(false);
 
 	}// ends setAllPanesVisibleToFalse
 		// /////////////////////////////////////////////////////////////////////
@@ -66,36 +91,116 @@ public class MainFrame extends JFrame implements MainFrameInterface,
 	public void actionPerformed(ActionEvent event) {
 		JButton eventButton = (JButton) event.getSource();
 
-		System.out.println(eventButton);
-
-		if (eventButton == menuItemsPane.backButton) {
-			System.out.println("Back from BreadPane");
-			System.out.println(menuItemsPane.getSize());
-			setAllPanesVisibleToFalse();
-			welcomePane.setVisible(true);
-		} else if (eventButton == menuItemsPane.nextButton) {
-			System.out.println("Next");
-			setAllPanesVisibleToFalse();
-			// .setVisible(true);
-
-		} else if (eventButton == welcomePane.orderAsGuestButton) {
-			System.out.println("Next from WelcomePane");
+		/*
+		 * if (eventButton == menuItemsPane.backButton) {
+		 * System.out.println("Back from BreadPane");
+		 * System.out.println(menuItemsPane.getSize());
+		 * setAllPanesVisibleToFalse(); welcomePane.setVisible(true); } else
+		 */if (eventButton == welcomePane.orderAsGuestButton) {
 			setAllPanesVisibleToFalse();
 			menuItemsPane.setVisible(true);
 
+		} else if (eventButton == menuItemsPane.nextButton) {
+			setAllPanesVisibleToFalse();
+			sandwichTypePane.setVisible(true);
+		} else if (eventButton == sandwichTypePane.backButton) {
+			setAllPanesVisibleToFalse();
+			menuItemsPane.setVisible(true);
+		} else if (eventButton == sandwichTypePane.nextButton) {
+			setAllPanesVisibleToFalse();
+			breadPane.setVisible(true);
+		} else if (eventButton == breadPane.backButton) {
+			setAllPanesVisibleToFalse();
+			sandwichTypePane.setVisible(true);
+		} else if (eventButton == breadPane.nextButton) {
+			setAllPanesVisibleToFalse();
+			cheesePane.setVisible(true);
+		} else if (eventButton == cheesePane.backButton) {
+			setAllPanesVisibleToFalse();
+			breadPane.setVisible(true);
+		} else if (eventButton == cheesePane.nextButton) {
+			setAllPanesVisibleToFalse();
+			meatPane.setVisible(true);
+		} else if (eventButton == meatPane.backButton) {
+			setAllPanesVisibleToFalse();
+			cheesePane.setVisible(true);
+		} else if (eventButton == meatPane.nextButton) {
+			setAllPanesVisibleToFalse();
+			toppingsPane.setVisible(true);
+		} else if (eventButton == toppingsPane.backButton) {
+			setAllPanesVisibleToFalse();
+			meatPane.setVisible(true);
+		} else if (eventButton == toppingsPane.nextButton) {
+			setAllPanesVisibleToFalse();
+			saucesPane.setVisible(true);
+		} else if (eventButton == saucesPane.backButton) {
+			setAllPanesVisibleToFalse();
+			toppingsPane.setVisible(true);
+		} else if (eventButton == saucesPane.nextButton) {
+			runSummary();
+			setAllPanesVisibleToFalse();
+			selectionSummaryPane.setVisible(true);
+		} else if (eventButton == selectionSummaryPane.backButton) {
+			setAllPanesVisibleToFalse();
+			saucesPane.setVisible(true);
+		} else if (eventButton == selectionSummaryPane.completeButton) {
+			int answer = JOptionPane.showConfirmDialog(selectionSummaryPane,
+					"Are you sure you want to submit?", "Confirm submit",
+					JOptionPane.OK_CANCEL_OPTION, JOptionPane.WARNING_MESSAGE);
+			if (answer == 0) {
+				JOptionPane
+						.showMessageDialog(
+								selectionSummaryPane,
+								"Your order has been submitted. Thank You for your business!",
+								"Order Submitted",
+								JOptionPane.INFORMATION_MESSAGE);
+
+				startOver();
+			}// ends if-statment for JOptionPane question
+
 		} else if (eventButton.getText().equalsIgnoreCase("Start Over")) {
-			System.out.println("From Start Over");
-
-			// sets the selection of the pane to false
-			menuItemsPane.deselectList();
-
-			this.setAllPanesVisibleToFalse();
-			// first pane to be seen therefore
-			// setVisible from start
-			welcomePane.setVisible(true);
-
+			startOver();
 		}// ends if-else statements
-	}//ends ActionPerformed method
+	}// ends ActionPerformed method
+
+	private void startOver() {
+		// sets the selection of the panes to false
+		menuItemsPane.deselectList();
+		sandwichTypePane.deselectList();
+		breadPane.deselectList();
+		cheesePane.deselectList();
+		meatPane.deselectList();
+		toppingsPane.deselectList();
+		saucesPane.deselectList();
+		selectionSummaryPane.clearDisplayArea();
+
+		this.setAllPanesVisibleToFalse();
+		// first pane to be seen therefore
+		// setVisible from start
+		welcomePane.setVisible(true);
+
+	}
+
+	private void runSummary() {
+
+		selectedIngredients = new ArrayList<String>();
+		this.menuItemsPane.displayIngredientsJList.getSelectedValuesList();
+		selectedIngredients.addAll(this.menuItemsPane.displayIngredientsJList
+				.getSelectedValuesList());
+		selectedIngredients
+				.addAll(this.sandwichTypePane.displayIngredientsJList
+						.getSelectedValuesList());
+		selectedIngredients.addAll(this.breadPane.displayIngredientsJList
+				.getSelectedValuesList());
+		selectedIngredients.addAll(this.cheesePane.displayIngredientsJList
+				.getSelectedValuesList());
+		selectedIngredients.addAll(this.toppingsPane.displayIngredientsJList
+				.getSelectedValuesList());
+		selectedIngredients.addAll(this.saucesPane.displayIngredientsJList
+				.getSelectedValuesList());
+
+		selectionSummaryPane.setDisplayArea(this.selectedIngredients);
+	}// ends runSumarry method
 
 	/*
 	 * used to initialize all panes, and also to reset all their values
@@ -103,12 +208,17 @@ public class MainFrame extends JFrame implements MainFrameInterface,
 	 */
 	private void initializeAllPanes() {
 
-		List<String> breadList = Arrays.asList("Foot-Long", "6-Inch", "Mini",
-				"Salad");
-		menuItemsPane = new SandwichTypePane("Sandwhich-Type", this, breadList);
 		welcomePane = new WelcomePane("Welcome to Subway!", this);
-
+		menuItemsPane = new MenuItemsPane(ingredientGroup, this, 0);
+		sandwichTypePane = new SandwichTypePane(ingredientGroup, this, 1);
+		breadPane = new BreadPane(ingredientGroup, this, 2);
+		cheesePane = new CheesePane(ingredientGroup, this, 3);
+		meatPane = new MeatPane(ingredientGroup, this, 4);
+		toppingsPane = new ToppingsPane(ingredientGroup, this, 5);
+		saucesPane = new SaucesPane(ingredientGroup, this, 6);
+		selectionSummaryPane = new SummaryPane(this);
 		setAllPanesVisibleToFalse();
+
 		// first pane to be seen therefore
 		// setVisible from start
 		welcomePane.setVisible(true);

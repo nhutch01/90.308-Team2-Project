@@ -6,8 +6,7 @@ import java.awt.event.ActionListener;
 
 public class WelcomePane extends JPanel {
 
-	private JLabel bannerJLabel;
-	JButton signInButton;
+    JButton signInButton;
 	JButton orderAsGuestButton;
 	
 
@@ -17,9 +16,10 @@ public class WelcomePane extends JPanel {
 		GridBagConstraints bc = new GridBagConstraints();
 
 		// adding bannerJLable to the WelcomePane
-		bannerJLabel = new JLabel(bannerMessage);
-		
-		bc.gridy = 0;
+        JLabel bannerJLabel;
+        bannerJLabel = new JLabel(bannerMessage);
+
+        bc.gridy = 0;
 		bc.gridx = 0;
 		
 		bc.gridwidth = 2;

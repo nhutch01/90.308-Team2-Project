@@ -13,7 +13,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 /**
- * Created with IntelliJ IDEA.
  * User: Nicki
  * Date: 2/18/13
  * Time: 8:08 PM
@@ -21,8 +20,6 @@ import java.util.ArrayList;
  */
 public class IngredientGroupDAO implements ProcessXMLFileData{
     IngredientGroup ingredientGroup = null;
-    String type = null;
-    String name = null;
 
     public IngredientGroupDAO(){
         ingredientGroup = new IngredientGroup();
@@ -87,8 +84,8 @@ public class IngredientGroupDAO implements ProcessXMLFileData{
     // return the arraylist of ingredient groups of the type passed in through the parameter
     // single-select or multi-select
     public static ArrayList<IngredientGroup> returnAllIngredientGroups(String fileName, String tagName)  {
-        Document doc = null;
-        ArrayList<IngredientGroup> groupsFromXML = null;
+        Document doc;
+        ArrayList<IngredientGroup> groupsFromXML;
         File fXmlFile = new File(fileName);
         doc = parseXmlFile(fXmlFile);
         IngredientGroupDAO ingredientData = new IngredientGroupDAO();
@@ -96,7 +93,7 @@ public class IngredientGroupDAO implements ProcessXMLFileData{
         return groupsFromXML;
     }
 
-    public static void main(String args[])  {
+    /*public static void main(String args[])  {
         String fileName = "C:\\Users\\Nicki\\Ingredients.xml";
 
 
@@ -111,5 +108,5 @@ public class IngredientGroupDAO implements ProcessXMLFileData{
                 System.out.println("choice: " + choice);
         }
 
-    }
+    }      */
 }

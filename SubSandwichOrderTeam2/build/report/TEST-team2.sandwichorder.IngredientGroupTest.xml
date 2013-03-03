@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="Nicki-PC" name="team2.sandwichorder.IngredientGroupTest" tests="6" time="0.141" timestamp="2013-02-26T02:03:31">
+<testsuite errors="0" failures="0" hostname="Nicki-PC" name="team2.sandwichorder.IngredientGroupTest" tests="6" time="0.105" timestamp="2013-03-03T14:42:01">
   <properties>
     <property name="java.vendor" value="Oracle Corporation" />
     <property name="lib.dir" value="lib" />
@@ -51,7 +51,7 @@
     <property name="java.vendor.url" value="http://java.oracle.com/" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
-    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner team2.sandwichorder.IngredientGroupTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\report\TEST-team2.sandwichorder.IngredientGroupTest.xml crashfile=C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\junitvmwatcher8708507484733210417.properties propsfile=C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\junit3542163460821186372.properties" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner team2.sandwichorder.IngredientGroupTest filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\report\TEST-team2.sandwichorder.IngredientGroupTest.xml crashfile=C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\junitvmwatcher6427022731952555754.properties propsfile=C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\junit8686294658425582229.properties" />
     <property name="java.class.path" value="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\classes;C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\lib\junit-4.10.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.2\lib\ant\lib\ant-launcher.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.2\lib\ant\lib\ant.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 12.0.2\lib\ant\lib\ant-junit.jar" />
     <property name="ant.version" value="Apache Ant(TM) version 1.8.2 compiled on December 20 2010" />
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
@@ -76,7 +76,7 @@
     <property name="ant.project.invoked-targets" value="all" />
   </properties>
   <testcase classname="team2.sandwichorder.IngredientGroupTest" name="testGetChoices" time="0.003" />
-  <testcase classname="team2.sandwichorder.IngredientGroupTest" name="testAddChoice" time="0.001" />
+  <testcase classname="team2.sandwichorder.IngredientGroupTest" name="testAddChoice" time="0.0" />
   <testcase classname="team2.sandwichorder.IngredientGroupTest" name="testSetGroupType" time="0.0" />
   <testcase classname="team2.sandwichorder.IngredientGroupTest" name="testGetGroupName" time="0.0" />
   <testcase classname="team2.sandwichorder.IngredientGroupTest" name="testGetGroupType" time="0.0" />

@@ -3,12 +3,12 @@ package team2.sandwichorder;
 import java.awt.event.ActionListener;
 import java.util.List;
 
-public class SandwichTypePane extends AbstractPane {
+public class ToppingsPane extends AbstractPane {
 
-	public SandwichTypePane(List<IngredientGroup> ingredientGroup,
+	public ToppingsPane(List<IngredientGroup> ingredientGroup,
 			ActionListener mainFrameActionListener, int ArrayListPosition) {
-
 		super(ingredientGroup, mainFrameActionListener, ArrayListPosition);
-}
+		// TODO Auto-generated constructor stub
+	}
 
-}// ends SandwichTyePane class
+}
