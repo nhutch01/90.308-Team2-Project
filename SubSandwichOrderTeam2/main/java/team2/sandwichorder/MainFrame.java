@@ -22,7 +22,7 @@ public class MainFrame extends JFrame
 	private SummaryPane selectionSummaryPane; // pane were summary will be
 												// displayed
 	private List<String> selectedIngredients;// the list of all customer
-    private String fileName = ".\\Ingredients.xml";
+    private String fileName = ".\\Ingredients.xml" ;
 
 	public MainFrame(String title) {
 		super(title);

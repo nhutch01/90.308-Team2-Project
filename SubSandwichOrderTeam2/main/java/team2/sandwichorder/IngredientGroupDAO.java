@@ -93,20 +93,4 @@ public class IngredientGroupDAO implements ProcessXMLFileData{
         return groupsFromXML;
     }
 
-    /*public static void main(String args[])  {
-        String fileName = "C:\\Users\\Nicki\\Ingredients.xml";
-
-
-        String tagName = "group";
-
-        ArrayList<IngredientGroup> groupsFromXMLFile = returnAllIngredientGroups(fileName, tagName);
-
-        for (IngredientGroup g:groupsFromXMLFile)        {
-            System.out.println("type: " + g.getGroupType());
-            System.out.println("name: " + g.getGroupName());
-            for (String choice: g.getChoices())
-                System.out.println("choice: " + choice);
-        }
-
-    }      */
 }
