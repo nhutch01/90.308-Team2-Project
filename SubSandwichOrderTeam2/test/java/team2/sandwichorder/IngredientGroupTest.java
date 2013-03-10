@@ -2,6 +2,7 @@ package team2.sandwichorder;
 
 import org.junit.Before;
 import org.junit.Test;
+import team2.sandwichorder.Model.IngredientGroup;
 
 import java.util.ArrayList;
 

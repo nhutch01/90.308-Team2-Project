@@ -4,16 +4,18 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.w3c.dom.Document;
+import team2.sandwichorder.Model.IngredientGroup;
+import team2.sandwichorder.Model.IngredientGroupDAO;
 
 import java.io.File;
 import java.util.ArrayList;
+import java.util.List;
+
 import static junit.framework.Assert.assertEquals;
 /**
- * Created with IntelliJ IDEA.
- * User: Nicki
- * Date: 2/20/13
- * Time: 8:18 PM
- * To change this template use File | Settings | File Templates.
+ * @author Nicki Hutchens
+ * @since: 2/20/13
+ * JUnit test for IngredientGroupDAO
  */
 public class IngredientGroupDAOTest {
     private Document doc;
@@ -30,7 +32,7 @@ public class IngredientGroupDAOTest {
         IngredientGroup group = new IngredientGroup();
         ArrayList<String> choices = new ArrayList<String>();
         String choice = null;
-        ArrayList<IngredientGroup> groupsFromXMLFile = ingredientData.returnAllIngredientGroups(fileName, tagName);
+        List<IngredientGroup> groupsFromXMLFile = ingredientData.returnAllIngredientGroups(fileName, tagName);
         int groupsSize = groupsFromXMLFile.size();
         assertEquals(7, groupsSize);
         /* the expected result is there are 7 ingredient groups in the Ingredients.xml file, each with a
