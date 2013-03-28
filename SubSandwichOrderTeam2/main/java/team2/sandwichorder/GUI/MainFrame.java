@@ -1,21 +1,29 @@
 package team2.sandwichorder.GUI;
 
-import team2.sandwichorder.Model.IngredientGroup;
-import team2.sandwichorder.Model.IngredientGroupDAO;
-import team2.sandwichorder.Model.SandwichOrderData;
+import team2.sandwichorder.BusinessLogic.CalculateSandwichOrderPrice;
+import team2.sandwichorder.BusinessLogic.ItemPriceMap;
+import team2.sandwichorder.Ingredients.GroupType;
+import team2.sandwichorder.Ingredients.IngredientGroupJAXBDAO;
+import team2.sandwichorder.Model.*;
+import team2.sandwichorder.Pricing.PriceItemType;
+import team2.sandwichorder.Pricing.PricingJAXBDAO;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.util.ArrayList;
+import java.io.FileNotFoundException;
+import java.math.BigDecimal;
 import java.util.List;
 
 public class MainFrame extends JFrame
         implements ActionListener {
 
-	private List<IngredientGroup> ingredientGroup;
+	private List<GroupType> ingredientGroup;
+    private List<PriceItemType> priceItemTypeGroup;
+    private ItemPriceMap itemPriceMap;
     private SandwichOrderData orderData;
+    private SandwichOrderGroups orderDataGroups;
 	private WelcomePane welcomePane;// pane in which customers will be welcomed
 	private AbstractPane menuItemsPane; // order pane for breads customers
 	private AbstractPane sandwichTypePane; // order Pane for Toasted or Not
@@ -26,18 +34,31 @@ public class MainFrame extends JFrame
 	private AbstractPane saucesPane; // the sauces choice display
 	private SummaryPane selectionSummaryPane; // pane were summary will be
 												// displayed
-	private List<String> selectedIngredients;// the list of all customer
     private String fileName = ".\\Ingredients.xml" ;
 
 	public MainFrame(String title) {
 		super(title);
+        // read the ingredients from the Ingredients xml using the ingredient group JAXB DAO - data access object
+        try{
+            ingredientGroup = IngredientGroupJAXBDAO.processXmlFile(fileName);
+        }catch (FileNotFoundException e){
+            e.toString();
+            System.exit(0);
+        }
 
-        // IngredientGroupDAO works
+        // then read the pricing from the Pricing xml using the pricing JAXB DAO
+        fileName = ".\\Pricing.xml" ;
+        try{
+            priceItemTypeGroup = PricingJAXBDAO.processXmlFile(fileName);
+        }catch (FileNotFoundException e){
+            e.toString();
+            System.exit(0);
+        }
 
-        String tagName = "group";
-        ingredientGroup = IngredientGroupDAO.returnAllIngredientGroups(fileName, tagName) ;
+        // create the item price map to be used for total
+        itemPriceMap = new ItemPriceMap(priceItemTypeGroup);
 
-		initializeAllPanes();// method declared within this class to initialize
+        initializeAllPanes();// method declared within this class to initialize
 								// all frames
 
 		// method created/declared within this class
@@ -96,15 +117,10 @@ public class MainFrame extends JFrame
 	public void actionPerformed(ActionEvent event) {
 		JButton eventButton = (JButton) event.getSource();
 
-		/*
-		 * if (eventButton == menuItemsPane.backButton) {
-		 * System.out.println("Back from BreadPane");
-		 * System.out.println(menuItemsPane.getSize());
-		 * setAllPanesVisibleToFalse(); welcomePane.setVisible(true); } else
-		 */if (eventButton == welcomePane.orderAsGuestButton) {
+        if (eventButton == welcomePane.orderAsGuestButton) {
 			setAllPanesVisibleToFalse();
-            orderData = new SandwichOrderData();
-            orderData.setGroupName("Guest");
+            orderDataGroups = new SandwichOrderGroups();
+            orderDataGroups.setCustomerName("Guest");
 			menuItemsPane.setVisible(true);
 
 		} else if (eventButton == menuItemsPane.nextButton) {
@@ -195,30 +211,47 @@ public class MainFrame extends JFrame
      * information.  Use the toString method of SandwichOrderData to output the summary of the order.
      */
 	private void runSummary() {
+        orderData = new SandwichOrderData();
+        // Get the selected, calculate the price, and  display the summary
+        orderData.setType(this.menuItemsPane.displayIngredientsJList.getSelectedValue());
+        orderData.addAllChoices(this.menuItemsPane.displayIngredientsJList.getSelectedValuesList());
+        orderDataGroups.addSandwichOrderData(orderData);
 
-		selectedIngredients = new ArrayList<String>();
-		//this.menuItemsPane.displayIngredientsJList.getSelectedValuesList();
-
-        // The menu item indicates the type of sandwich
-        orderData.setGroupType(this.menuItemsPane.displayIngredientsJList.getSelectedValue());
-
-		// selectedIngredients.addAll(this.menuItemsPane.displayIngredientsJList.getSelectedValuesList());
-
-        // sandwich type such as toasted, non-toasted
+        orderData = new SandwichOrderData();
+        orderData.setName(this.sandwichTypePane.currentGroup.getName());
         orderData.addAllChoices(this.sandwichTypePane.displayIngredientsJList.getSelectedValuesList());
+        orderDataGroups.addSandwichOrderData(orderData);
 
-		//selectedIngredients.addAll(this.sandwichTypePane.displayIngredientsJList.getSelectedValuesList());
+        orderData = new SandwichOrderData();
+        orderData.setName(this.breadPane.currentGroup.getName());
         orderData.addAllChoices(this.breadPane.displayIngredientsJList.getSelectedValuesList());
-		//selectedIngredients.addAll(this.breadPane.displayIngredientsJList.getSelectedValuesList());
-		orderData.addAllChoices(this.cheesePane.displayIngredientsJList.getSelectedValuesList());
-        //selectedIngredients.addAll(this.cheesePane.displayIngredientsJList.getSelectedValuesList());
-        orderData.addAllChoices(this.toppingsPane.displayIngredientsJList.getSelectedValuesList());
-		//selectedIngredients.addAll(this.toppingsPane.displayIngredientsJList.getSelectedValuesList());
-        orderData.addAllChoices(this.saucesPane.displayIngredientsJList.getSelectedValuesList());
-		//selectedIngredients.addAll(this.saucesPane.displayIngredientsJList.getSelectedValuesList());
+        orderDataGroups.addSandwichOrderData(orderData);
 
-		//selectionSummaryPane.setDisplayArea(this.selectedIngredients);
-        selectionSummaryPane.setDisplayArea(orderData.toString());
+        orderData = new SandwichOrderData();
+        orderData.setName(this.cheesePane.currentGroup.getName());
+		orderData.addAllChoices(this.cheesePane.displayIngredientsJList.getSelectedValuesList());
+        orderDataGroups.addSandwichOrderData(orderData);
+
+        orderData = new SandwichOrderData();
+        orderData.setName(meatPane.currentGroup.getName());
+        orderData.addAllChoices(this.meatPane.displayIngredientsJList.getSelectedValuesList());
+        orderDataGroups.addSandwichOrderData(orderData);
+
+        orderData = new SandwichOrderData();
+        orderData.setName(toppingsPane.currentGroup.getName());
+        orderData.addAllChoices(this.toppingsPane.displayIngredientsJList.getSelectedValuesList());
+        orderDataGroups.addSandwichOrderData(orderData);
+
+        orderData = new SandwichOrderData();
+        orderData.setName(saucesPane.currentGroup.getName());
+        orderData.addAllChoices(this.saucesPane.displayIngredientsJList.getSelectedValuesList());
+        orderDataGroups.addSandwichOrderData(orderData);
+
+        // calculate the total price
+        CalculateSandwichOrderPrice calculatePrice = new CalculateSandwichOrderPrice(orderDataGroups,itemPriceMap);
+        BigDecimal totalOrderPrice =  calculatePrice.calculateTotalOrderPrice();
+        orderDataGroups.setGrandTotalOrderPrice(totalOrderPrice);
+        selectionSummaryPane.setDisplayArea(orderDataGroups.toString());
 	}// ends runSummary method
 
 	/*

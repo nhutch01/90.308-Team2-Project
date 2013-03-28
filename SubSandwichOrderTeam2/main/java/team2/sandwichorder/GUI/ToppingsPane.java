@@ -1,16 +1,15 @@
 package team2.sandwichorder.GUI;
 
-import team2.sandwichorder.Model.IngredientGroup;
+import team2.sandwichorder.Ingredients.GroupType;
 
 import java.awt.event.ActionListener;
 import java.util.List;
 
 public class ToppingsPane extends AbstractPane {
 
-	public ToppingsPane(List<IngredientGroup> ingredientGroup,
+	public ToppingsPane(List<GroupType> ingredientGroup,
 			ActionListener mainFrameActionListener, int ArrayListPosition) {
 		super(ingredientGroup, mainFrameActionListener, ArrayListPosition);
-		// TODO Auto-generated constructor stub
 	}
 
 }

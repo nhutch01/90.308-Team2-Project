@@ -2,66 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88a42345-6bf3-4960-9d1f-3a48dae54e15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/AbstractPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/BreadPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/CheesePane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/Model/IngredientGroup.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/Model/IngredientGroupDAO.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/IngredientGroupDAOTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/IngredientGroupTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/MainFrame.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/MeatPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/MenuItemsPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/Model/ProcessXMLFileData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/SandwichOrder.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/Model/SandwichOrderData.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/SandwichOrderDataTest.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/SandwichTypePane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/SaucesPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/ScreenPanel.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/SummaryPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/ToppingsPane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/WelcomePane.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/html/team2/sandwichorder/0_IngredientGroupDAOTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/html/team2/sandwichorder/1_IngredientGroupTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/html/team2/sandwichorder/2_SandwichOrderDataTest.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/IngredientsWithPrice.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/ProcessXMLFileData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/SandwichOrderData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/team2/sandwichorder/SandwichOrderDataTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/TEST-team2.sandwichorder.IngredientGroupDAOTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/TEST-team2.sandwichorder.IngredientGroupTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/TEST-team2.sandwichorder.SandwichOrderDataTest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/TESTS-TestSuites.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/html/all-tests.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/html/allclasses-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/html/alltests-errors.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/html/alltests-fails.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/html/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/html/overview-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/html/overview-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/html/team2/sandwichorder/package-frame.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/html/team2/sandwichorder/package-summary.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/build/report/html/stylesheet.css" />
-      <change type="DELETED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\ProcessXMLFileData.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\AbstractPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/AbstractPane.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\BreadPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/BreadPane.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\CheesePane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/CheesePane.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\IngredientGroup.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/IngredientGroup.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\IngredientGroupDAO.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/IngredientGroupDAO.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\MainClass.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SandwichOrder.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\MainFrame.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MainFrame.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\MeatPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MeatPane.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\MenuItemsPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MenuItemsPane.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\SandwichTypePane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SandwichTypePane.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\SaucesPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SaucesPane.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\ScreenPanel.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/ScreenPanel.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\SummaryPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SummaryPane.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\ToppingsPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/ToppingsPane.java" />
-      <change type="MOVED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\WelcomePane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/WelcomePane.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupDAOTest.java" afterPath="$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupDAOTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/team2/sandwichorder/CalculateOrderPriceTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/BusinessLogic/CalculateSandwichOrderPrice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/Ingredients/IngredientGroupJAXBDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupJAXBDAOTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/BusinessLogic/ItemPriceMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/team2/sandwichorder/ItemPriceMapTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/Pricing/PricingJAXBDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/java/team2/sandwichorder/PricingJAXBDAOTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/SandwichOrderGroups.java" />
+      <change type="DELETED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\IngredientsWithPrice.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\classes\team2\sandwichorder\IngredientGroupDAOTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\classes\team2\sandwichorder\Model\IngredientGroupDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\classes\team2\sandwichorder\Model\ProcessXMLFileData.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\report\TEST-team2.sandwichorder.IngredientGroupDAOTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\report\html\team2\sandwichorder\0_IngredientGroupDAOTest.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\report\html\team2\sandwichorder\1_IngredientGroupTest.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\build\report\html\team2\sandwichorder\2_SandwichOrderDataTest.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\Model\IngredientGroupDAO.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java\team2\sandwichorder\Model\ProcessXMLFileData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\test\java\team2\sandwichorder\IngredientGroupDAOTest.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/AbstractPane.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/AbstractPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/BreadPane.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/BreadPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/CheesePane.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/CheesePane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/Model/IngredientGroup.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/Model/IngredientGroup.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/IngredientGroupTest.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/IngredientGroupTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/MainFrame.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/MainFrame.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/MeatPane.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/MeatPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/MenuItemsPane.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/MenuItemsPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/Model/SandwichOrderData.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/Model/SandwichOrderData.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/SandwichOrderDataTest.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/SandwichOrderDataTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/SandwichTypePane.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/SandwichTypePane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/SaucesPane.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/SaucesPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/SummaryPane.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/SummaryPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/ToppingsPane.class" afterPath="$PROJECT_DIR$/build/classes/team2/sandwichorder/GUI/ToppingsPane.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/AbstractPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/AbstractPane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/BreadPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/BreadPane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/CheesePane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/CheesePane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/IngredientGroup.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/IngredientGroup.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupTest.java" afterPath="$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Ingredients.xml" afterPath="$PROJECT_DIR$/Ingredients.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MainFrame.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MainFrame.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MeatPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MeatPane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MenuItemsPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MenuItemsPane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/SandwichOrderData.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/SandwichOrderData.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/java/team2/sandwichorder/SandwichOrderDataTest.java" afterPath="$PROJECT_DIR$/test/java/team2/sandwichorder/SandwichOrderDataTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SandwichTypePane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SandwichTypePane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SaucesPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SaucesPane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SummaryPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SummaryPane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/TEST-team2.sandwichorder.IngredientGroupTest.xml" afterPath="$PROJECT_DIR$/build/report/TEST-team2.sandwichorder.IngredientGroupTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/TEST-team2.sandwichorder.SandwichOrderDataTest.xml" afterPath="$PROJECT_DIR$/build/report/TEST-team2.sandwichorder.SandwichOrderDataTest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/TESTS-TestSuites.xml" afterPath="$PROJECT_DIR$/build/report/TESTS-TestSuites.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/ToppingsPane.java" afterPath="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/ToppingsPane.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/html/all-tests.html" afterPath="$PROJECT_DIR$/build/report/html/all-tests.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/html/allclasses-frame.html" afterPath="$PROJECT_DIR$/build/report/html/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/html/overview-summary.html" afterPath="$PROJECT_DIR$/build/report/html/overview-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/html/team2/sandwichorder/package-frame.html" afterPath="$PROJECT_DIR$/build/report/html/team2/sandwichorder/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/report/html/team2/sandwichorder/package-summary.html" afterPath="$PROJECT_DIR$/build/report/html/team2/sandwichorder/package-summary.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SubSandwichOrderTeam2.iws" />
@@ -72,25 +71,50 @@
     <file path="$USER_HOME$/IdeaProjects/TestOutCode/src/testcode/nicki/Employee.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361114375762" ignored="false" />
     <file path="/Employee.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361114230682" ignored="false" />
     <file path="/ProcessXML.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361115824642" ignored="false" />
-    <file path="/IngredientGroup.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362930380195" ignored="false" />
-    <file path="/fragment.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362924657544" ignored="false" />
+    <file path="/IngredientGroup.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364175308184" ignored="false" />
+    <file path="/fragment.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364438058083" ignored="false" />
     <file path="$PROJECT_DIR$/../90.308/src/test/java/com/origamisoftware/teach/effective/junit/SubscriptionPeriodTest.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361237231133" ignored="false" />
-    <file path="/IngredientGroupTest.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361238683192" ignored="false" />
+    <file path="/IngredientGroupTest.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364171368894" ignored="false" />
     <file path="/ProcessXMLFileData.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362930409980" ignored="false" />
-    <file path="/IngredientGroupDAO.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362930509427" ignored="false" />
-    <file path="/Dummy.txt" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362924657544" ignored="false" />
+    <file path="/IngredientGroupDAO.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1363914194529" ignored="false" />
+    <file path="/Dummy.txt" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364435675543" ignored="false" />
     <file path="$PROJECT_DIR$/../90.308-Team2-Project/SubSandwichOrderTeam2/.idea/workspace.xml" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361322710447" ignored="false" />
     <file path="/IngredientGroupDAOTest.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362924749780" ignored="false" />
-    <file path="/MainFrame.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362929726159" ignored="false" />
+    <file path="/MainFrame.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364350203578" ignored="false" />
     <file path="/MainFrameInterface.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1361716013466" ignored="false" />
     <file path="/IngredientGroupReturner.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362109577927" ignored="false" />
-    <file path="/a.dummy" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362110375073" ignored="false" />
-    <file path="/AbstractPane.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362191203572" ignored="false" />
-    <file path="/a.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362880917417" ignored="false" />
+    <file path="/a.dummy" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364158763882" ignored="false" />
+    <file path="/AbstractPane.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364154524115" ignored="false" />
+    <file path="/a.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1363896528754" ignored="false" />
     <file path="/SandwichOrder.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362924446731" ignored="false" />
-    <file path="/SandwichOrderDataTest.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362930250945" ignored="false" />
-    <file path="/SandwichOrderData.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362930432199" ignored="false" />
-    <file path="/SummaryPane.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1362929599026" ignored="false" />
+    <file path="/SandwichOrderDataTest.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364159666291" ignored="false" />
+    <file path="/SandwichOrderData.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364351344159" ignored="false" />
+    <file path="/SummaryPane.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364351867663" ignored="false" />
+    <file path="/IngredientGroupJAXBDAO.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364152838749" ignored="false" />
+    <file path="/IngredientGroupJAXBDAOTest.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364172181395" ignored="false" />
+    <file path="/IngredientsWithPrice.xsd" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364141648119" ignored="false" />
+    <file path="/Ingredients.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1363999358849" ignored="false" />
+    <file path="/Ingredients.xml" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1363758207630" ignored="false" />
+    <file path="/IngredientsWithPrice.xml" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364140729956" ignored="false" />
+    <file path="/a.xml" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1363896572529" ignored="false" />
+    <file path="/IngredientsWithPrice.xsd.xml" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1363900910286" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/de.vogella.xml.jaxb/model/src/Book.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1363907809528" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/de.vogella.xml.jaxb/model/src/Bookstore.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1363907869220" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/de.vogella.xml.jaxb/test/src/BookMain.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1363907941170" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/de.vogella.xml.jaxb/model/src/BookMain.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1363908182084" ignored="false" />
+    <file path="/ChoiceItems.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1363908798455" ignored="false" />
+    <file path="/LoadIngredientData.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1363914257643" ignored="false" />
+    <file path="/Pricing.xsd" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364151841299" ignored="false" />
+    <file path="/Pricing.xml" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364151681721" ignored="false" />
+    <file path="/PricingJAXBDAO.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364153781805" ignored="false" />
+    <file path="/CreatePriceMap.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364156256541" ignored="false" />
+    <file path="/CalculateSandwichOrderPrice.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364349193257" ignored="false" />
+    <file path="/ItemPriceMap.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364437625238" ignored="false" />
+    <file path="/PricingJAXBDAOTest.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364437729494" ignored="false" />
+    <file path="/SandwichOrderGroups.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364351297128" ignored="false" />
+    <file path="$PROJECT_DIR$/build/report/TEST-team2.sandwichorder.IngredientGroupJAXBDAOTest.xml" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364352135519" ignored="false" />
+    <file path="/ItemPriceMapTest.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364439338518" ignored="false" />
+    <file path="/CalculateOrderPriceTest.java" changelist="88a42345-6bf3-4960-9d1f-3a48dae54e15" time="1364441270526" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,8 +134,8 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -155,48 +179,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="AbstractPane.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/AbstractPane.java">
+      <file leaf-file-name="CalculateSandwichOrderPrice.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/BusinessLogic/CalculateSandwichOrderPrice.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="0" selection-start="1886" selection-end="1886" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SandwichTypePane.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SandwichTypePane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="11" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SandwichOrderData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/Model/SandwichOrderData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="20" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IngredientGroupDAO.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/Model/IngredientGroupDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="33" selection-start="4497" selection-end="4497" vertical-scroll-proportion="1.6878307">
+            <state line="43" column="0" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#2261#2278#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SummaryPane.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SummaryPane.java">
+      <file leaf-file-name="CalculateOrderPriceTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/CalculateOrderPriceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="49" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.0">
+            <state line="16" column="29" selection-start="491" selection-end="491" vertical-scroll-proportion="0.4981685">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IngredientGroupJAXBDAOTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupJAXBDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="50" selection-start="216" selection-end="266" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainFrame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MainFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="13" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemPriceMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/BusinessLogic/ItemPriceMap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="20" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ItemPriceMapTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/ItemPriceMapTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="20" selection-start="139" selection-end="1928" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IngredientGroupTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="7" selection-start="597" selection-end="758" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PricingJAXBDAOTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/PricingJAXBDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="74" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -205,50 +264,20 @@
       <file leaf-file-name="SandwichOrderDataTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/SandwichOrderDataTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IngredientGroup.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/Model/IngredientGroup.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="17" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProcessXMLFileData.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/Model/ProcessXMLFileData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="31" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+            <state line="17" column="13" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainFrame.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MainFrame.java">
+      <file leaf-file-name="SandwichOrderGroups.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/Model/SandwichOrderGroups.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="48" selection-start="3926" selection-end="3926" vertical-scroll-proportion="0.0">
+            <state line="12" column="13" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#387#406#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MenuItemsPane.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MenuItemsPane.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -270,25 +299,32 @@
       <MyDateState />
     </option>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="expandStates">
+      <map>
+        <entry key="SubSandwichOrderTeam2" value="true" />
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/MeatPane.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/SummaryPane.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/MainFrameInterface.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/AbstractPane.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/WelcomePane.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/IngredientGroupDAO.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/MainFrame.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/SandwichOrder.java" />
-        <option value="$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupDAOTest.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SummaryPane.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MainFrame.java" />
-        <option value="$PROJECT_DIR$/test/java/team2/sandwichorder/SandwichOrderDataTest.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/IngredientGroup.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/ProcessXMLFileData.java" />
         <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/SandwichOrderData.java" />
-        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/Model/IngredientGroupDAO.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MainFrame.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SummaryPane.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MeatPane.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/CheesePane.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/BreadPane.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MenuItemsPane.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SandwichTypePane.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SaucesPane.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/ToppingsPane.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/AbstractPane.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/BusinessLogic/ItemPriceMap.java" />
+        <option value="$PROJECT_DIR$/test/java/team2/sandwichorder/PricingJAXBDAOTest.java" />
+        <option value="$PROJECT_DIR$/main/java/team2/sandwichorder/ItemPriceMapTest.java" />
+        <option value="$PROJECT_DIR$/test/java/team2/sandwichorder/ItemPriceMapTest.java" />
+        <option value="$PROJECT_DIR$/test/java/team2/sandwichorder/CalculateOrderPriceTest.java" />
       </list>
     </option>
   </component>
@@ -297,7 +333,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="width" value="1612" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
     <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -307,6 +344,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -326,9 +365,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Tests" />
-      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -451,7 +487,59 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Pricing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubSandwichOrderTeam2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubSandwichOrderTeam2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sandwichorder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubSandwichOrderTeam2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SubSandwichOrderTeam2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sandwichorder" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ingredients" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -502,24 +590,33 @@
               <option name="myItemId" value="sandwichorder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BusinessLogic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Tests" />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_directory_selection" value="$PROJECT_DIR$/main/java/team2/sandwichorder/Pricing" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
+    <property name="options.lastSelected" value="tasks" />
     <property name="last_opened_file_path" value="$USER_HOME$/IdeaProjects/TestOutCode/TestOutCode.iml" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -534,9 +631,17 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="team2.sandwichorder" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2" />
+      <recent name="C:\Users\Nicki\Documents\GitHub\90.308-Team2-Project\SubSandwichOrderTeam2\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="team2.sandwichorder.Pricing" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.SandwichOrder">
     <configuration default="false" name="IngredientGroupDAO" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="team2.sandwichorder.Model.IngredientGroupDAO" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -559,6 +664,7 @@
       <method />
     </configuration>
     <configuration default="false" name="SandwichOrder" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="team2.sandwichorder.GUI.SandwichOrder" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -577,6 +683,28 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="LoadIngredientData" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="team2.sandwichorder.Model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="team2.sandwichorder.Model.LoadIngredientData" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Main" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -608,6 +736,7 @@
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -635,6 +764,7 @@
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -649,6 +779,7 @@
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -669,6 +800,7 @@
       <method />
     </configuration>
     <configuration default="false" name="team2.sandwichorder in Test" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="Test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -688,15 +820,17 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.IngredientGroupDAO" />
-      <item index="1" class="java.lang.String" itemvalue="Application.SandwichOrder" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.team2.sandwichorder in Test" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.team2.sandwichorder in Test" />
+      <item index="1" class="java.lang.String" itemvalue="Application.IngredientGroupDAO" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SandwichOrder" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LoadIngredientData" />
     </list>
     <recent_temporary>
-      <list size="2">
+      <list size="3">
         <item index="0" class="java.lang.String" itemvalue="Application.SandwichOrder" />
-        <item index="1" class="java.lang.String" itemvalue="Application.IngredientGroupDAO" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LoadIngredientData" />
+        <item index="2" class="java.lang.String" itemvalue="Application.IngredientGroupDAO" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -769,29 +903,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1612" height="876" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28710124" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12967741" sideWeight="0.5910987" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30041724" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.6272601" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.091377094" sideWeight="0.8247566" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4589708" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.4980695" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24756606" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1752434" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.497426" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14774193" sideWeight="0.7719054" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14774193" sideWeight="0.7719054" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26903227" sideWeight="0.5910987" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40890124" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2863578" sideWeight="0.8247566" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40751043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34909597" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2906815" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -864,125 +1002,129 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SaucesPane.java">
+    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SandwichTypePane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="179" selection-end="179" vertical-scroll-proportion="0.0">
+        <state line="10" column="76" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.xml">
+    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SaucesPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="26" selection-start="2011" selection-end="2011" vertical-scroll-proportion="0.0">
+        <state line="12" column="75" selection-start="403" selection-end="403" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/ToppingsPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="34" selection-start="2016" selection-end="2147" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#960#968#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SandwichOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="61" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/BreadPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+        <state line="12" column="0" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/AbstractPane.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="1886" selection-end="1886" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SandwichTypePane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MenuItemsPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/SummaryPane.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="49" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MainFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="48" selection-start="3926" selection-end="3926" vertical-scroll-proportion="0.0">
+        <state line="75" column="0" selection-start="2282" selection-end="2282" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/SandwichOrderDataTest.java">
+    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/Pricing/PriceItemType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="47" column="13" selection-start="1486" selection-end="1486" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/Model/IngredientGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="17" selection-start="2693" selection-end="2693" vertical-scroll-proportion="0.0">
+        <state line="55" column="51" selection-start="1549" selection-end="1549" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/PricingJAXBDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="74" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/SandwichOrderDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="369" selection-end="369" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/Model/SandwichOrderGroups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="307" selection-end="307" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#387#406#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="7" selection-start="597" selection-end="758" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/Model/ProcessXMLFileData.java">
+    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/BusinessLogic/ItemPriceMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="31" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+        <state line="13" column="20" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/Model/SandwichOrderData.java">
+    <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/ItemPriceMapTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="20" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/Model/IngredientGroupDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="33" selection-start="4497" selection-end="4497" vertical-scroll-proportion="1.6878307">
+        <state line="65" column="20" selection-start="139" selection-end="1928" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#2261#2278#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/GUI/MainFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/java/team2/sandwichorder/BusinessLogic/CalculateSandwichOrderPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1727" selection-end="1727" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/IngredientGroupJAXBDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="50" selection-start="216" selection-end="266" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/team2/sandwichorder/CalculateOrderPriceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="29" selection-start="491" selection-end="491" vertical-scroll-proportion="0.4981685">
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

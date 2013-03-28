@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import team2.sandwichorder.Model.SandwichOrderData;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 import static junit.framework.Assert.assertEquals;
@@ -20,9 +21,10 @@ public class SandwichOrderDataTest {
 
     @Before
     public void setUp() throws Exception {
-        sandwichOrder.setGroupName("Nicki's Order");
-        sandwichOrder.setGroupType("Foot Long");
-        sandwichOrder.setTotalPrice(7.95);
+        sandwichOrder.setName("Nicki's Order");
+        sandwichOrder.setType("Foot Long");
+        BigDecimal totalPrice = new BigDecimal(7.95)   ;
+        sandwichOrder.setTotalOrderPrice(totalPrice);
         sandwichOrder.addChoice("Toasted");
         sandwichOrder.addChoice("Wheat");
         sandwichOrder.addChoice("American");
@@ -38,9 +40,10 @@ public class SandwichOrderDataTest {
      */
     public void testSandwichOrderData() throws Exception {
         String choice;
-        assertEquals("Nicki's Order", sandwichOrder.getGroupName());
-        assertEquals("Foot Long", sandwichOrder.getGroupType());
-        assertEquals(7.95, sandwichOrder.getTotalPrice());
+        assertEquals("Nicki's Order", sandwichOrder.getName());
+        assertEquals("Foot Long", sandwichOrder.getType());
+        BigDecimal totalPrice = new BigDecimal(7.95);
+        assertEquals(totalPrice, sandwichOrder.getTotalPrice());
         List<String> choices = sandwichOrder.getChoices();
         for (int i = 0; i < choices.size(); i++)  {
 

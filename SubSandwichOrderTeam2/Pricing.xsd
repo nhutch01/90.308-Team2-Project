@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="pricing" type="pricingType"/>
+  <xs:complexType name="pricingType">
+    <xs:sequence>
+      <xs:element type="priceItemType" name="priceItem" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="priceItemType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="choice"/>
+      <xs:element name="price">
+        <xs:simpleType>
+          <xs:restriction base="xs:decimal">
+            <xs:enumeration value="5.00"/>
+            <xs:enumeration value="3.00"/>
+            <xs:enumeration value="2.00"/>
+            <xs:enumeration value="0.25"/>
+            <xs:enumeration value="0.35"/>
+            <xs:enumeration value="0.20"/>
+            <xs:enumeration value="0.15"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

@@ -10,66 +10,70 @@ import java.util.List;
  * Class that represents a group of Ingredients for Subway Sandwich order system
  *   that will be displayed as choices on the GUI
  *   An IngredientGroup object includes:
- *   groupType   // single-select or multi-select; Single-select means only one selection from the group of ingredients can be made by the user; multi-select means
+ *   type   // single-select or multi-select; Single-select means only one selection from the group of ingredients can be made by the user; multi-select means
  *   multiple selections from the group of ingredients can be made by the user.
- *   groupName  // name of ingredient group such as Bread-type, Cheese, Meats, etc.
+ *   name  // name of ingredient group such as Bread-type, Cheese, Meats, etc.
  *   choices  // list of available ingredients in the group
  */
 
 public class IngredientGroup {
-    private String groupType = null;  // single-select or multi-select
-    private String groupName = null;  // name of ingredient group such as Bread-type, Cheese, Meats, etc.
-    private ArrayList<String> choices = null;  // list of ingredients
+    private ArrayList<String> choices;
+    private String name;
+    private String type;
+
 
     public IngredientGroup (){
-        this.groupType = null;
-        this.groupName = null;
+        this.type = null;
+        this.name = null;
         this.choices = new ArrayList<String>();
 
     }
 
     /**
+     * addAllChoices
+     * @param choices
+     */
+    public void addAllChoices(List<String> choices) {
+        this.choices.addAll(choices);
+    }
+
+    public void addChoice(String choice){
+        this.choices.add(choice);
+    }
+    /**
+     * getChoices
+     * @return  ArrayList of choices objects
+     */
+    public ArrayList<String> getChoices() {
+        return this.choices;
+    }
+
+    /**
      * setGroupType
      *   Sets the Group Type of the ingredients group (single-select or multi-select)
-     * @param groupType
+     * @param type
      */
-    public void setGroupType(String groupType){
-        this.groupType = groupType;
+    public void setType(String type){
+        this.type = type;
     }
+
+
+    /**
+     * getType
+     * @return type - group type
+     */
+    public String getType(){
+        return this.type;
+    }
+
 
     /**
      * setGroupName
      * Sets the name of the ingredient Group such as Bread-type, Meats, Cheese, etc.
-     * @param groupName
+     * @param name
      */
-    public void setGroupName(String groupName){
-        this.groupName = groupName;
-    }
-
-    /**
-     * addChoice
-     * Adds a single string value choice for the Ingredient Group to the ArrayList of choices
-     * @param choice
-     */
-    public void addChoice(String choice){
-        this.choices.add(choice);
-    }
-
-    /**
-     * addAllChoices
-     * Adds a list of string value choices to the ArrayList of choices
-     * @param allChoices
-     */
-    public void addAllChoices(List<String> allChoices){
-        this.choices.addAll(allChoices);
-    }
-    /**
-     * getGroupType
-     * Returns the Group Type for the ingredient group
-     * @return  String groupType
-     */
-    public String getGroupType(){
-        return this.groupType;
+    public void setName(String name){
+        this.name = name;
     }
 
     /**
@@ -77,16 +81,7 @@ public class IngredientGroup {
      * Returns the Group Name of the ingredient group
      * @return  String groupName
      */
-    public String getGroupName(){
-        return this.groupName;
-    }
-
-    /**
-     * getChoices
-     *  Returns the ArrayList of choices for the ingredient group
-     * @return ArrayList choices
-     */
-    public ArrayList<String> getChoices(){
-        return this.choices;
+    public String getName(){
+        return this.name;
     }
 }

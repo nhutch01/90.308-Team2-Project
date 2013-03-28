@@ -95,14 +95,6 @@ public class SummaryPane extends JPanel {
 
 	}//
 
-	// creates a String Array to add elements from the List<String>
-	// ingredientsList to
-	public void setDisplayArea(List<String> ingredientsList) {
-			for(String ingredient: ingredientsList){
-				displayArea.append(ingredient + "\n");
-			}//ends for-each
-	}// ends setDisplayArea method
-
     /**
      * Set the display area with the order string
      * @param orderString

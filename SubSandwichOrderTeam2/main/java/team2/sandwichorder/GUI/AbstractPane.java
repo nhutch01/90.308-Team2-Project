@@ -1,6 +1,6 @@
 package team2.sandwichorder.GUI;
 
-import team2.sandwichorder.Model.IngredientGroup;
+import team2.sandwichorder.Ingredients.GroupType;
 
 import javax.swing.*;
 import java.awt.*;
@@ -15,7 +15,7 @@ abstract class AbstractPane extends JPanel {
 	JButton homeButton;
 
 	JList<String> displayIngredientsJList;
-	IngredientGroup currentGroup;
+	GroupType currentGroup;
 
 	/*
 	 * Constructor to be inherited by every Pane which will extend this abstract
@@ -25,7 +25,7 @@ abstract class AbstractPane extends JPanel {
 	 * Lis<String> with the list of ingredients available to display
 	 */
 
-	public AbstractPane(List<IngredientGroup> ingredientGroup,
+	public AbstractPane(List<GroupType> ingredientGroup,
 			ActionListener mainFrameActionListener, int ArrayListPosition) {
 
 		setSize(new Dimension(600, 400));
@@ -35,15 +35,15 @@ abstract class AbstractPane extends JPanel {
 		setBorder(BorderFactory.createEtchedBorder());
 
 		/* Retrieves the IngredientGroup from the ArrayList of IngredientsGroup */
-		currentGroup = ingredientGroup.get(ArrayListPosition);
+        currentGroup = ingredientGroup.get(ArrayListPosition) ;
 
 		/*
 		 * gets the groupName of the Group and assigns that String to the
 		 * bannerMessage which will be displayed
 		 */
-        String bannerMessage = currentGroup.getGroupName();
+        String bannerMessage = currentGroup.getName();
 
-		this.setList(currentGroup.getChoices(), currentGroup.getGroupType());
+		this.setList(currentGroup.getChoice(), currentGroup.getType());
 
 		this.setLayout(new GridBagLayout());
 		GridBagConstraints bc = new GridBagConstraints();
@@ -57,9 +57,8 @@ abstract class AbstractPane extends JPanel {
 		this.add(homeButton, bc);
 		homeButton.addActionListener(mainFrameActionListener);
 
-		// adding bannerJLable to the pane
         JLabel bannerJLabel;
-        bannerJLabel = new JLabel("Choose your " + bannerMessage + " \"" + (currentGroup.getGroupType().equalsIgnoreCase("multi-select") ? "Multi-Selection" : "Choose only One.") + "\"");
+        bannerJLabel = new JLabel("Choose your " + bannerMessage + " \"" + (currentGroup.getType().equalsIgnoreCase("multi-select") ? "Multi-Selection" : "Choose only One.") + "\"");
 
         bc.gridy = 1;
 		bc.gridx = 0;
@@ -126,7 +125,7 @@ abstract class AbstractPane extends JPanel {
 				
 		displayIngredientsJList = new JList<String>();
 		displayIngredientsJList.setListData(listDataArray);
-		displayIngredientsJList.setPreferredSize(new Dimension(200, 200));
+		displayIngredientsJList.setPreferredSize(new Dimension(200, 400));
 		
 		/*
 		 * enables the JList Multi-selection or disables it depending on passed
@@ -147,9 +146,9 @@ abstract class AbstractPane extends JPanel {
 		displayIngredientsJList.clearSelection();
 	}
 
-	/*public List<String> getSelections() {
+	public List<String> getSelections() {
 		return this.displayIngredientsJList.getSelectedValuesList();
 
-	}*/// ends getSelections Method
+	}// ends getSelections Method
 
-}// /ends BreadsPane class
+}// /ends class

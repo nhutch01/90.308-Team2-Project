@@ -1,5 +1,6 @@
 package team2.sandwichorder.Model;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 /**
@@ -15,47 +16,49 @@ import java.util.List;
  *   calculated during order selection process
  */
 public class SandwichOrderData extends IngredientGroup{
-   private double totalPrice;
+    private BigDecimal totalPrice;
 
     public SandwichOrderData(){
         super();
-        totalPrice = 0.00;
+        totalPrice = new BigDecimal(0.00);
     }
 
     /**
-     * setTotalPrice
+     * setTotalOrderPrice
      * Set the total price for the order
-     * @param totalPrice
+     * @param totalOrderPrice
      */
-    public void setTotalPrice(double totalPrice){
-        this.totalPrice = totalPrice;
+    public void setTotalOrderPrice(BigDecimal totalOrderPrice){
+        this.totalPrice = totalOrderPrice;
     }
 
     /**
      * getTotalPrice
-     * Return the total Price for the Order
+     * Return the total Price for the Order group
      * @return
      */
-    public double getTotalPrice(){
+    public BigDecimal getTotalPrice(){
         return totalPrice;
     }
 
     /**
      * toString
      * Return a string representation of the order data in the format desired for the order summary
-     * @return
+     * @return  String representation of one ingredient data group
      */
     public String toString(){
         StringBuilder orderString = new StringBuilder();
-        orderString.append("Order Name: " + this.getGroupName() + "\n");
-        orderString.append("Order Type: " + this.getGroupType() + "\n") ;
+
+        orderString.append("Name: " + this.getName() + "\n");
+        orderString.append("Order Type: " + this.getType() + "\n") ;
         orderString.append("Ingredients: \n");
         List<String> choices = this.getChoices();
-        for (int i = 0; i < choices.size(); i++)  {
-            orderString.append(String.valueOf(i+1) + ":  " + choices.get(i) + "\n");
-        }
+            for (int i = 0; i < choices.size(); i++)  {
+                orderString.append(String.valueOf(i+1) + ":  " + choices.get(i) + "\n");
+            }
 
-        orderString.append("Total price: $" + this.getTotalPrice());
+
+        orderString.append("Total price: $" + this.getTotalPrice().toString());
         return orderString.toString();
     }
 }

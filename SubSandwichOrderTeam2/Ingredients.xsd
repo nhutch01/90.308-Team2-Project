@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ingredients" type="ingredientsType"/>
+  <xs:complexType name="groupType">
+    <xs:sequence>
+      <xs:element name="type" type="xs:string">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="single-select"/>
+            <xs:enumeration value="multi-select"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Menu-items"/>
+            <xs:enumeration value="Sandwich-type"/>
+            <xs:enumeration value="Bread"/>
+            <xs:enumeration value="Cheese"/>
+            <xs:enumeration value="Meats"/>
+            <xs:enumeration value="Toppings"/>
+            <xs:enumeration value="Sauces"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="choice" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ingredientsType">
+    <xs:sequence>
+      <xs:element type="groupType" name="group" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

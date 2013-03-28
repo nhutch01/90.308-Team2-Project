@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ingredients>
   <group>
-    	<type>single-select</type>
+    <type>single-select</type>
 	<name>Menu-items</name>
-    		<choice>Foot Long</choice>
+    		<choice>Foot Long </choice>
     		<choice>6-inch</choice>
     		<choice>Mini</choice>
     		<choice>Salad</choice>
   </group>
   <group>
-    	<type>single-select</type>
+    <type>single-select</type>
 	<name>Sandwich-type</name>
     	<choice>Toasted</choice>
     	<choice>Non-Toasted</choice>
@@ -44,28 +44,28 @@
     		<choice>Grilled Chicken</choice>
     		<choice>Buffalo Chicken</choice>
     		<choice>Teriyaki Chicken</choice>
-   		<choice>Steak</choice>
-  		<choice>Roast Beef</choice>
+			<choice>Steak</choice>
+			<choice>Roast Beef</choice>
     		<choice>Tuna</choice>
     		<choice>Bologna</choice>
     		<choice>Salami</choice>
     		<choice>Genoa Salami</choice>
-   		<choice>Meatball Marinara</choice>
-   		<choice>Pepperoni</choice>
-   		<choice>Bacon</choice>
-  		<choice>Veggie Pattie</choice>
+			<choice>Meatball Marinara</choice>
+			<choice>Pepperoni</choice>
+			<choice>Bacon</choice>
+			<choice>Veggie Pattie</choice>
   </group>
   <group>
     	<type>multi-select</type>
-	<name>Toppings</name>
+		<name>Toppings</name>
     		<choice>Lettuce</choice>
     		<choice>Tomatoes</choice>
     		<choice>Cucumbers</choice>
     		<choice>Green Peppers</choice>
     		<choice>Spinach</choice>
     		<choice>Onions</choice>
-   		<choice>Pickles</choice>
-  		<choice>Olives</choice>
+			<choice>Pickles</choice>
+			<choice>Olives</choice>
     		<choice>Banana Peppers</choice>
     		<choice>Grated Parmesan</choice>
     		<choice>Jalapenos</choice>
@@ -75,15 +75,15 @@
   </group>
   <group>
     	<type>multi-select</type>
-	<name>Sauces</name>
+		<name>Sauces</name>
     		<choice>Yellow Mustard</choice>
     		<choice>Brown Mustard</choice>
     		<choice>Honey Mustard</choice>
     		<choice>Sweet Onion</choice>
     		<choice>Red Wine Vinegar</choice>
     		<choice>Light Mayo</choice>
-   		<choice>Chipolte Southwest</choice>
-  		<choice>Ranch</choice>
+			<choice>Chipolte Southwest</choice>
+			<choice>Ranch</choice>
     		<choice>Mayo</choice>
     		<choice>Oil</choice>
   </group>

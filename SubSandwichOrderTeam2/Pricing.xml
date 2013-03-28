@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pricing>
+    <priceItem>
+        <choice>Foot Long </choice>
+	    <price>5.00</price>
+    </priceItem>
+    <priceItem>
+        <choice>6-inch</choice>
+	    <price>3.00</price>
+    </priceItem>
+    <priceItem>
+        <choice>Mini</choice>
+	    <price>2.00</price>
+    </priceItem>
+    <priceItem>
+        <choice>Salad</choice>
+		<price>3.00</price>
+    </priceItem>
+    <priceItem>
+	    <choice>Turkey</choice>
+		<price>0.25</price>
+    </priceItem>
+    <priceItem>
+	    <choice>Black Forest Ham</choice>
+		<price>0.35</price>
+    </priceItem>
+    <priceItem>
+	    <choice>Sliced Chicken</choice>
+		<price>0.25</price>
+    </priceItem>
+    <priceItem>
+	    <choice>Grilled Chicken</choice>
+		<price>0.25</price>
+    </priceItem>
+    <priceItem>
+	    <choice>Buffalo Chicken</choice>
+		<price>0.25</price>
+    </priceItem>
+    <priceItem>
+	    <choice>Teriyaki Chicken</choice>
+		<price>0.25</price>
+    </priceItem>
+    <priceItem>
+	    <choice>Steak</choice>
+		<price>0.25</price>
+    </priceItem>
+    <priceItem>
+	    <choice>Roast Beef</choice>
+		<price>0.35</price>
+    </priceItem>
+    <priceItem>
+        <choice>Tuna</choice>
+		<price>0.20</price>
+    </priceItem>
+    <priceItem>
+        <choice>Bologna</choice>
+		<price>0.15</price>
+    </priceItem>
+    <priceItem>
+        <choice>Salami</choice>
+		<price>0.15</price>
+    </priceItem>
+    <priceItem>
+        <choice>Genoa Salami</choice>
+		<price>0.15</price>
+    </priceItem>
+    <priceItem>
+	    <choice>Meatball Marinara</choice>
+		<price>0.15</price>
+    </priceItem>
+    <priceItem>
+	    <choice>Pepperoni</choice>
+		<price>0.15</price>
+    </priceItem>
+    <priceItem>
+	    <choice>Bacon</choice>
+		<price>0.15</price>
+    </priceItem>
+    <priceItem>
+	    <choice>Veggie Pattie</choice>
+		<price>0.25</price>
+    </priceItem>
+</pricing>
