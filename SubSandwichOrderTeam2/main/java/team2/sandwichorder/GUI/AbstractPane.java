@@ -5,6 +5,7 @@ import team2.sandwichorder.Ingredients.GroupType;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -14,7 +15,7 @@ abstract class AbstractPane extends JPanel {
 	JButton backButton;
 	JButton homeButton;
 
-	JList<String> displayIngredientsJList;
+	JList displayIngredientsJList;
 	GroupType currentGroup;
 
 	/*
@@ -123,7 +124,7 @@ abstract class AbstractPane extends JPanel {
 		ingredientsList.toArray(listDataArray);
 
 				
-		displayIngredientsJList = new JList<String>();
+		displayIngredientsJList = new JList();
 		displayIngredientsJList.setListData(listDataArray);
 		displayIngredientsJList.setPreferredSize(new Dimension(200, 400));
 		
@@ -147,8 +148,11 @@ abstract class AbstractPane extends JPanel {
 	}
 
 	public List<String> getSelections() {
-		return this.displayIngredientsJList.getSelectedValuesList();
-
+        Object[] selections = this.displayIngredientsJList.getSelectedValues();
+        List<String> selectionList = new ArrayList<String>();
+        for (int i=0; i<selections.length; i++)
+		    selectionList.add((String)selections[i]);
+        return selectionList;
 	}// ends getSelections Method
 
 }// /ends class

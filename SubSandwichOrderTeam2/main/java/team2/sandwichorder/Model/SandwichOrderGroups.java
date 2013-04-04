@@ -14,6 +14,12 @@ public class SandwichOrderGroups {
     List<SandwichOrderData> sandwichOrders = new ArrayList<SandwichOrderData> ();
     String customerName;
     BigDecimal grandTotal;
+
+    public SandwichOrderGroups(){
+        this.sandwichOrders = new ArrayList<SandwichOrderData> ();
+        this.customerName = new String();
+        this.grandTotal = new BigDecimal(0.00);
+    }
     /**
      * add SandwichOrderData
      * @param sandwichOrderData

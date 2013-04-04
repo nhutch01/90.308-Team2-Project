@@ -164,8 +164,14 @@ public class MainFrame extends JFrame
 			setAllPanesVisibleToFalse();
 			selectionSummaryPane.setVisible(true);
 		} else if (eventButton == selectionSummaryPane.backButton) {
-			setAllPanesVisibleToFalse();
-			saucesPane.setVisible(true);
+            int answer = JOptionPane.showConfirmDialog(selectionSummaryPane,
+                    "Selecting the Back Button from the Summary Screen will clear your order.", "Do you want to proceed?",
+                    JOptionPane.OK_CANCEL_OPTION, JOptionPane.WARNING_MESSAGE);
+            if (answer == 0) {
+                setAllPanesVisibleToFalse();
+			    saucesPane.setVisible(true);
+                startOver();
+            }
 		} else if (eventButton == selectionSummaryPane.completeButton) {
 			int answer = JOptionPane.showConfirmDialog(selectionSummaryPane,
 					"Are you sure you want to submit?", "Confirm submit",
@@ -196,7 +202,7 @@ public class MainFrame extends JFrame
 		toppingsPane.deselectList();
 		saucesPane.deselectList();
 		selectionSummaryPane.clearDisplayArea();
-
+        this.clearOrder();
 		this.setAllPanesVisibleToFalse();
 		// first pane to be seen therefore
 		// setVisible from start
@@ -213,38 +219,38 @@ public class MainFrame extends JFrame
 	private void runSummary() {
         orderData = new SandwichOrderData();
         // Get the selected, calculate the price, and  display the summary
-        orderData.setType(this.menuItemsPane.displayIngredientsJList.getSelectedValue());
-        orderData.addAllChoices(this.menuItemsPane.displayIngredientsJList.getSelectedValuesList());
+        orderData.setType((String) this.menuItemsPane.displayIngredientsJList.getSelectedValue());
+        orderData.addAllChoices(this.menuItemsPane.getSelections());
         orderDataGroups.addSandwichOrderData(orderData);
 
         orderData = new SandwichOrderData();
         orderData.setName(this.sandwichTypePane.currentGroup.getName());
-        orderData.addAllChoices(this.sandwichTypePane.displayIngredientsJList.getSelectedValuesList());
+        orderData.addAllChoices(this.sandwichTypePane.getSelections());
         orderDataGroups.addSandwichOrderData(orderData);
 
         orderData = new SandwichOrderData();
         orderData.setName(this.breadPane.currentGroup.getName());
-        orderData.addAllChoices(this.breadPane.displayIngredientsJList.getSelectedValuesList());
+        orderData.addAllChoices(this.breadPane.getSelections());
         orderDataGroups.addSandwichOrderData(orderData);
 
         orderData = new SandwichOrderData();
         orderData.setName(this.cheesePane.currentGroup.getName());
-		orderData.addAllChoices(this.cheesePane.displayIngredientsJList.getSelectedValuesList());
+		orderData.addAllChoices(this.cheesePane.getSelections());
         orderDataGroups.addSandwichOrderData(orderData);
 
         orderData = new SandwichOrderData();
         orderData.setName(meatPane.currentGroup.getName());
-        orderData.addAllChoices(this.meatPane.displayIngredientsJList.getSelectedValuesList());
+        orderData.addAllChoices(this.meatPane.getSelections());
         orderDataGroups.addSandwichOrderData(orderData);
 
         orderData = new SandwichOrderData();
         orderData.setName(toppingsPane.currentGroup.getName());
-        orderData.addAllChoices(this.toppingsPane.displayIngredientsJList.getSelectedValuesList());
+        orderData.addAllChoices(this.toppingsPane.getSelections());
         orderDataGroups.addSandwichOrderData(orderData);
 
         orderData = new SandwichOrderData();
         orderData.setName(saucesPane.currentGroup.getName());
-        orderData.addAllChoices(this.saucesPane.displayIngredientsJList.getSelectedValuesList());
+        orderData.addAllChoices(this.saucesPane.getSelections());
         orderDataGroups.addSandwichOrderData(orderData);
 
         // calculate the total price
@@ -254,6 +260,14 @@ public class MainFrame extends JFrame
         selectionSummaryPane.setDisplayArea(orderDataGroups.toString());
 	}// ends runSummary method
 
+    /**
+     * clearOrder - clear the order data - used when starting over or when back button is selected from summary screen
+     * @author Nicki Hutchens
+     * @since 4/3/2013
+     */
+    private void clearOrder(){
+       orderDataGroups = new SandwichOrderGroups();
+    }
 	/*
 	 * used to initialize all panes, and also to reset all their values
 	 * selections to zero when customer presses the start-over button
